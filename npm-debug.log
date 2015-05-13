@@ -1,0 +1,329 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'cookies' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json react-model@0.0.0 No README data
+6 warn package.json events@1.0.2 events is also the name of a node core module.
+7 verbose cache add [ 'cookies', null ]
+8 verbose cache add name=undefined spec="cookies" args=["cookies",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'cookies',
+9 verbose parsed url   path: 'cookies',
+9 verbose parsed url   href: 'cookies' }
+10 silly lockFile d2bd3549-cookies cookies
+11 verbose lock cookies C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\d2bd3549-cookies.lock
+12 silly lockFile d2bd3549-cookies cookies
+13 silly lockFile d2bd3549-cookies cookies
+14 verbose addNamed [ 'cookies', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile f2adb642-cookies cookies@
+17 verbose lock cookies@ C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\f2adb642-cookies.lock
+18 silly addNameRange { name: 'cookies', range: '*', hasData: false }
+19 verbose request where is /cookies
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 38d9d59902a3a50c
+22 verbose url raw /cookies
+23 verbose url resolving [ 'https://registry.npmjs.org/', './cookies' ]
+24 verbose url resolved https://registry.npmjs.org/cookies
+25 verbose request where is https://registry.npmjs.org/cookies
+26 info trying registry request attempt 1 at 10:54:17
+27 http GET https://registry.npmjs.org/cookies
+28 http 200 https://registry.npmjs.org/cookies
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Wed, 25 Mar 2015 05:24:18 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"5INTGM4XSLZ6VFC7LP7LX5C6D"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '26314',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1427261058.548074,VS0,VE256',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'cookies', range: '*', hasData: true }
+31 silly addNameRange versions [ 'cookies',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.1.5',
+31 silly addNameRange     '0.1.6',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.2.2',
+31 silly addNameRange     '0.2.3',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.3.2',
+31 silly addNameRange     '0.3.3',
+31 silly addNameRange     '0.3.4',
+31 silly addNameRange     '0.3.5',
+31 silly addNameRange     '0.3.6',
+31 silly addNameRange     '0.3.7',
+31 silly addNameRange     '0.3.8',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.4.1',
+31 silly addNameRange     '0.5.0' ] ]
+32 verbose addNamed [ 'cookies', '0.5.0' ]
+33 verbose addNamed [ '0.5.0', '0.5.0' ]
+34 silly lockFile 87bdebf1-cookies-0-5-0 cookies@0.5.0
+35 verbose lock cookies@0.5.0 C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\87bdebf1-cookies-0-5-0.lock
+36 silly lockFile 3e44b052-js-org-cookies-cookies-0-5-0-tgz https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz
+37 verbose lock https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\3e44b052-js-org-cookies-cookies-0-5-0-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz',
+38 verbose addRemoteTarball   '164cac46a1d3ca3b3b87427414c24931d8381025' ]
+39 info retry fetch attempt 1 at 10:54:19
+40 verbose fetch to= C:\Users\JAGADE~1.PUT\AppData\Local\Temp\npm-6500-HGCniXbK\registry.npmjs.org\cookies\-\cookies-0.5.0.tgz
+41 http GET https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz
+42 http 200 https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz
+43 silly lockFile 3e44b052-js-org-cookies-cookies-0-5-0-tgz https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz
+44 silly lockFile 3e44b052-js-org-cookies-cookies-0-5-0-tgz https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz
+45 silly lockFile 87bdebf1-cookies-0-5-0 cookies@0.5.0
+46 silly lockFile 87bdebf1-cookies-0-5-0 cookies@0.5.0
+47 silly lockFile f2adb642-cookies cookies@
+48 silly lockFile f2adb642-cookies cookies@
+49 silly resolved [ { name: 'cookies',
+49 silly resolved     version: '0.5.0',
+49 silly resolved     description: 'Cookies, optionally signed using Keygrip.',
+49 silly resolved     main: './lib/cookies',
+49 silly resolved     dependencies: { keygrip: '~1.0.0' },
+49 silly resolved     devDependencies: { express: '*', restify: '*', supertest: '0', mocha: '1' },
+49 silly resolved     engines: { node: '>= 0.8.0' },
+49 silly resolved     license: 'MIT',
+49 silly resolved     author:
+49 silly resolved      { name: 'Jed Schmidt',
+49 silly resolved        email: 'tr@nslator.jp',
+49 silly resolved        url: 'http://jed.is' },
+49 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/cookies' },
+49 silly resolved     scripts: { test: 'mocha --reporter spec' },
+49 silly resolved     bugs: { url: 'https://github.com/expressjs/cookies/issues' },
+49 silly resolved     homepage: 'https://github.com/expressjs/cookies',
+49 silly resolved     _id: 'cookies@0.5.0',
+49 silly resolved     dist:
+49 silly resolved      { shasum: '164cac46a1d3ca3b3b87427414c24931d8381025',
+49 silly resolved        tarball: 'http://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz' },
+49 silly resolved     _from: 'cookies@',
+49 silly resolved     _npmVersion: '1.4.3',
+49 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+49 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+49 silly resolved     directories: {},
+49 silly resolved     _shasum: '164cac46a1d3ca3b3b87427414c24931d8381025',
+49 silly resolved     _resolved: 'https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz' } ]
+50 info install cookies@0.5.0 into C:\wamp2\www\weatherreport
+51 info installOne cookies@0.5.0
+52 verbose node_modules\cookies unbuild
+53 verbose tar unpack C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\cookies\0.5.0\package.tgz
+54 silly lockFile bb75b516-atherreport-node-modules-cookies tar://C:\wamp2\www\weatherreport\node_modules\cookies
+55 verbose lock tar://C:\wamp2\www\weatherreport\node_modules\cookies C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\bb75b516-atherreport-node-modules-cookies.lock
+56 silly lockFile 0175149c--cache-cookies-0-5-0-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\cookies\0.5.0\package.tgz
+57 verbose lock tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\cookies\0.5.0\package.tgz C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\0175149c--cache-cookies-0-5-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '777', '666' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry History.md
+63 silly gunzTarPerm extractEntry LICENSE.txt
+64 silly gunzTarPerm extractEntry lib/cookies.js
+65 silly lockFile bb75b516-atherreport-node-modules-cookies tar://C:\wamp2\www\weatherreport\node_modules\cookies
+66 silly lockFile bb75b516-atherreport-node-modules-cookies tar://C:\wamp2\www\weatherreport\node_modules\cookies
+67 silly lockFile 0175149c--cache-cookies-0-5-0-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\cookies\0.5.0\package.tgz
+68 silly lockFile 0175149c--cache-cookies-0-5-0-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\cookies\0.5.0\package.tgz
+69 info preinstall cookies@0.5.0
+70 verbose readDependencies using package.json deps
+71 verbose readDependencies using package.json deps
+72 verbose cache add [ 'keygrip@~1.0.0', null ]
+73 verbose cache add name=undefined spec="keygrip@~1.0.0" args=["keygrip@~1.0.0",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'keygrip@~1.0.0',
+74 verbose parsed url   path: 'keygrip@~1.0.0',
+74 verbose parsed url   href: 'keygrip@~1.0.0' }
+75 verbose cache add name="keygrip" spec="~1.0.0" args=["keygrip","~1.0.0"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '~1.0.0',
+76 verbose parsed url   path: '~1.0.0',
+76 verbose parsed url   href: '~1.0.0' }
+77 verbose addNamed [ 'keygrip', '~1.0.0' ]
+78 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+79 silly lockFile f855b59d-keygrip-1-0-0 keygrip@~1.0.0
+80 verbose lock keygrip@~1.0.0 C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\f855b59d-keygrip-1-0-0.lock
+81 silly addNameRange { name: 'keygrip', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+82 verbose request where is /keygrip
+83 verbose request registry https://registry.npmjs.org/
+84 verbose url raw /keygrip
+85 verbose url resolving [ 'https://registry.npmjs.org/', './keygrip' ]
+86 verbose url resolved https://registry.npmjs.org/keygrip
+87 verbose request where is https://registry.npmjs.org/keygrip
+88 info trying registry request attempt 1 at 10:54:20
+89 http GET https://registry.npmjs.org/keygrip
+90 http 200 https://registry.npmjs.org/keygrip
+91 silly registry.get cb [ 200,
+91 silly registry.get   { date: 'Wed, 25 Mar 2015 05:24:21 GMT',
+91 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+91 silly registry.get     etag: '"3UKGAEO7UB9PH01EALWMSMZVR"',
+91 silly registry.get     'content-type': 'application/json',
+91 silly registry.get     'cache-control': 'max-age=60',
+91 silly registry.get     'content-length': '12818',
+91 silly registry.get     'accept-ranges': 'bytes',
+91 silly registry.get     via: '1.1 varnish',
+91 silly registry.get     age: '0',
+91 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+91 silly registry.get     'x-cache': 'MISS',
+91 silly registry.get     'x-cache-hits': '0',
+91 silly registry.get     'x-timer': 'S1427261060.796875,VS0,VE821',
+91 silly registry.get     vary: 'Accept',
+91 silly registry.get     'keep-alive': 'timeout=10, max=50',
+91 silly registry.get     connection: 'Keep-Alive' } ]
+92 silly addNameRange number 2 { name: 'keygrip', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+93 silly addNameRange versions [ 'keygrip',
+93 silly addNameRange   [ '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.1.3',
+93 silly addNameRange     '0.1.6',
+93 silly addNameRange     '0.1.7',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.2.3',
+93 silly addNameRange     '0.2.4',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.0.1' ] ]
+94 verbose addNamed [ 'keygrip', '1.0.1' ]
+95 verbose addNamed [ '1.0.1', '1.0.1' ]
+96 silly lockFile 9bca7180-keygrip-1-0-1 keygrip@1.0.1
+97 verbose lock keygrip@1.0.1 C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\9bca7180-keygrip-1-0-1.lock
+98 silly lockFile 3cb14c01-js-org-keygrip-keygrip-1-0-1-tgz https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz
+99 verbose lock https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\3cb14c01-js-org-keygrip-keygrip-1-0-1-tgz.lock
+100 verbose addRemoteTarball [ 'https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz',
+100 verbose addRemoteTarball   'b02fa4816eef21a8c4b35ca9e52921ffc89a30e9' ]
+101 info retry fetch attempt 1 at 10:54:21
+102 verbose fetch to= C:\Users\JAGADE~1.PUT\AppData\Local\Temp\npm-6500-HGCniXbK\registry.npmjs.org\keygrip\-\keygrip-1.0.1.tgz
+103 http GET https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz
+104 http 200 https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz
+105 silly lockFile 3cb14c01-js-org-keygrip-keygrip-1-0-1-tgz https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz
+106 silly lockFile 3cb14c01-js-org-keygrip-keygrip-1-0-1-tgz https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz
+107 silly lockFile 9bca7180-keygrip-1-0-1 keygrip@1.0.1
+108 silly lockFile 9bca7180-keygrip-1-0-1 keygrip@1.0.1
+109 silly lockFile f855b59d-keygrip-1-0-0 keygrip@~1.0.0
+110 silly lockFile f855b59d-keygrip-1-0-0 keygrip@~1.0.0
+111 silly resolved [ { name: 'keygrip',
+111 silly resolved     version: '1.0.1',
+111 silly resolved     description: 'Key signing and verification for rotated credentials',
+111 silly resolved     scripts: { test: 'node test.js' },
+111 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/keygrip.git' },
+111 silly resolved     dependencies: {},
+111 silly resolved     devDependencies: {},
+111 silly resolved     engines: { node: '*' },
+111 silly resolved     bugs: { url: 'https://github.com/expressjs/keygrip/issues' },
+111 silly resolved     homepage: 'https://github.com/expressjs/keygrip',
+111 silly resolved     _id: 'keygrip@1.0.1',
+111 silly resolved     dist:
+111 silly resolved      { shasum: 'b02fa4816eef21a8c4b35ca9e52921ffc89a30e9',
+111 silly resolved        tarball: 'http://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz' },
+111 silly resolved     _from: 'keygrip@~1.0.0',
+111 silly resolved     _npmVersion: '1.4.3',
+111 silly resolved     _npmUser: { name: 'jed', email: 'where@jed.is' },
+111 silly resolved     maintainers: [ [Object] ],
+111 silly resolved     directories: {},
+111 silly resolved     _shasum: 'b02fa4816eef21a8c4b35ca9e52921ffc89a30e9',
+111 silly resolved     _resolved: 'https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz' } ]
+112 info install keygrip@1.0.1 into C:\wamp2\www\weatherreport\node_modules\cookies
+113 info installOne keygrip@1.0.1
+114 verbose node_modules\cookies\node_modules\keygrip unbuild
+115 verbose tar unpack C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\keygrip\1.0.1\package.tgz
+116 silly lockFile ba97e1a4-les-cookies-node-modules-keygrip tar://C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip
+117 verbose lock tar://C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\ba97e1a4-les-cookies-node-modules-keygrip.lock
+118 silly lockFile fd46d34d--cache-keygrip-1-0-1-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\keygrip\1.0.1\package.tgz
+119 verbose lock tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\keygrip\1.0.1\package.tgz C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\fd46d34d--cache-keygrip-1-0-1-package-tgz.lock
+120 silly gunzTarPerm modes [ '777', '666' ]
+121 silly gunzTarPerm extractEntry package.json
+122 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+123 silly gunzTarPerm extractEntry .npmignore
+124 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+125 silly gunzTarPerm extractEntry README.md
+126 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+127 silly gunzTarPerm extractEntry index.js
+128 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+129 silly gunzTarPerm extractEntry test.js
+130 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry .travis.yml
+132 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+133 silly gunzTarPerm extractEntry LICENSE.txt
+134 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+135 silly lockFile ba97e1a4-les-cookies-node-modules-keygrip tar://C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip
+136 silly lockFile ba97e1a4-les-cookies-node-modules-keygrip tar://C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip
+137 silly lockFile fd46d34d--cache-keygrip-1-0-1-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\keygrip\1.0.1\package.tgz
+138 silly lockFile fd46d34d--cache-keygrip-1-0-1-package-tgz tar://C:\Users\Jagadeesh.Puthukkudi\AppData\Roaming\npm-cache\keygrip\1.0.1\package.tgz
+139 info preinstall keygrip@1.0.1
+140 verbose readDependencies using package.json deps
+141 verbose readDependencies using package.json deps
+142 silly resolved []
+143 verbose about to build C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip
+144 info build C:\wamp2\www\weatherreport\node_modules\cookies\node_modules\keygrip
+145 verbose linkStuff [ false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   'C:\\wamp2\\www\\weatherreport\\node_modules\\cookies\\node_modules' ]
+146 info linkStuff keygrip@1.0.1
+147 verbose linkBins keygrip@1.0.1
+148 verbose linkMans keygrip@1.0.1
+149 verbose rebuildBundles keygrip@1.0.1
+150 info install keygrip@1.0.1
+151 info postinstall keygrip@1.0.1
+152 verbose about to build C:\wamp2\www\weatherreport\node_modules\cookies
+153 info build C:\wamp2\www\weatherreport\node_modules\cookies
+154 verbose linkStuff [ false,
+154 verbose linkStuff   false,
+154 verbose linkStuff   false,
+154 verbose linkStuff   'C:\\wamp2\\www\\weatherreport\\node_modules' ]
+155 info linkStuff cookies@0.5.0
+156 verbose linkBins cookies@0.5.0
+157 verbose linkMans cookies@0.5.0
+158 verbose rebuildBundles cookies@0.5.0
+159 verbose rebuildBundles [ 'keygrip' ]
+160 info install cookies@0.5.0
+161 info postinstall cookies@0.5.0
+162 error peerinvalid The package moment does not satisfy its siblings' peerDependencies requirements!
+162 error peerinvalid Peer react-date-picker@1.4.3 wants moment@>=2.8.0
+163 error System Windows_NT 6.1.7601
+164 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "cookies"
+165 error cwd C:\wamp2\www\weatherreport
+166 error node -v v0.10.36
+167 error npm -v 1.4.28
+168 error code EPEERINVALID
+169 verbose exit [ 1, true ]
